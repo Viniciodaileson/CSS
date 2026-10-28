@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+
+    color: #222222;
+}
+
+
+.topo {
+    background-color: #222222;
+    color: rgb(163, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.topo h1 {
+    margin: 0;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+main {
+    width: 900px;
+
+    margin: 40px auto;
+}
+
+
+h2 {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+
+.card {
+    width: 200px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 8px;
+
+    height: 195px;
+}
+
+
+.card h3 {
+    color: #a70404;
+}
+.card p:not(.preco){
+    min-height: 50px;
+}
+
+.preco {
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+
+button {
+    background-color: #333333;
+
+    color: white;
+
+    padding: 5px 5px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    margin-top: auto;
+
+   
+}
+
+
+button:hover {
+    background-color: #555555;
+}
+
+.produtos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
