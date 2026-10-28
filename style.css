@@ -1,0 +1,132 @@
+* .{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    background-color: #947979;
+    padding: 30px 20px;       
+}
+
+.logo-nome h1 {
+    color: #ffffff;           
+    font-family: 'Montserrat', sans-serif, Arial; 
+    font-size: 26px;
+    letter-spacing: 4px;      
+    margin-bottom: 25px;      
+}
+
+.navegacao ul {
+    display: flex;            
+    list-style: none;         
+    padding: 0;
+    margin: 0;
+    gap: 40px;                
+}
+
+.navegacao a {
+    color: #ffffff;           
+    text-decoration: none;    
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    transition: opacity 0.3s; 
+}
+
+.navegacao a:hover {
+    opacity: 0.7;             
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;       
+    justify-content: center;   
+    align-items: center;      
+    background-color: rgb(212, 194, 194);
+    padding: 40px 20px;       
+    gap: 40px;                
+}
+
+.inicio img {
+    width: 250px;             
+    height: 250px;
+    object-fit: cover;        
+    border-radius: 8px;       
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    text-align: center;       
+    gap: 15px;                
+    max-width: 450px;         
+}
+
+.texto p {
+    font-family: sans-serif;
+    color: #333333;
+    line-height: 1.5;         
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color: rgb(23, 36, 92);
+    color: #ffffff;           
+    text-decoration: none;    
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;         
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: rgb(23, 36, 92);   
+}
+.sessao{
+    padding: 52px 7%;
+}
+.sessao > h2{
+    margin-bottom: 32px;
+    color: var(--azul -text);
+    font-size: 2rem;
+    text-align: center;
+}
+.cartoes {
+    display: flex;
+    flex: 1 1 260px;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    min-width: 0%;
+    padding: 26px 26px;
+    border-radius: 9px;
+    align-items: stretch;
+    background-color: #947979;
+    text-align: center;
+    max-width: 1050px;
+    flex-wrap: wrap;
+}
+.cartao {
+    display: flex;
+    flex: 1 1 260px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    min-width: 0%;
+    padding: 26px 26px;
+    flex-wrap: wrap;
+    border: 1px solid#971b1b;
+    border-radius: 9px;
+    text-align: center;
+    
+
+}
